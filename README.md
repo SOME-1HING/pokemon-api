@@ -26,7 +26,11 @@ The Pokemon ID must be a number between 1 and 1010. If the Pokemon with the prov
 
 Here is an example of how to search for information about Pikachu:
 
+```bash
 GET https://pokemon.some-1hing.repl.co/pokemon?name=pikachu
+
+GET https://pokemon.some-1hing.repl.co/pokemon?id=25
+```
 
 ## License
 
